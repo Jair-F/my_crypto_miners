@@ -1,0 +1,12 @@
+services:
+  my_crypto_miners:
+    image: jairf/my_crypto_miners:latest
+    container_name: my_crypto_miners
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    restart: no
