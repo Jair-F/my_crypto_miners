@@ -1,7 +1,6 @@
 services:
   my_crypto_miners:
-    # image: jair_f/my_crypto_miners:latest
-    image: my_crypto_miners:latest
+    image: jairf/my_crypto_miners:latest
     container_name: my_crypto_miners
     deploy:
       resources:
