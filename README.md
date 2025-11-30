@@ -54,7 +54,7 @@ You can run the miners using either a direct `docker run` command or with `docke
 This command runs a new container from the image, provides access to all available GPUs, and automatically removes the container on exit.
 
 ```bash
-docker run -it --rm --gpus all my_crypto_miners:latest
+docker run -it --rm --gpus all jairf/my_crypto_miners:latest
 ```
 
 #### Option B: Using `docker compose`
